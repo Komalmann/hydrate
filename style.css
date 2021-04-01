@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'MuseoModerno',
+    cursive;
+    background-color: #191919;
+    color: whitesmoke;
+}
+main{
+    width:90%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #040404;
+    padding: 1rem;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.inputs{
+    text-align: center;
+    padding:1.5rem;
+    display: flex;
+    justify-content:center;
+}
+
+input[type="number"]
+{
+    background: #cac8c8;
+    border: none;
+    width: 70%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+button[type="submit"]{
+    font-family: inherit;
+    background-color: #2e68dd;
+    border: none;
+    padding: 1rem;
+    width:35%;
+    border-radius: 5%;
+    color:whitesmoke;
+    font-weight: bolder;
+    font-size:1rem;
+}
+
+
+.buttons {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+#add, #sub{
+    margin-right: 1rem;
+    width: 35%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.progress {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.progressCircleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#progressCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* background: conic-gradient(#70db70 50%, #2d3740 50%); */
+}
+
+#progressCenter {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #040404;
+
+}
